@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:id="@+id/action_group"  >
+    <item android:id="@+id/edit_pref"
+        android:icon="@mipmap/first2"
+        android:title="@string/edit_pref"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/action_settings"
+        android:icon="@mipmap/first3"
+        android:title="clear"/>
+    </group>
+</menu>

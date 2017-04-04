@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:stretchColumns="*">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row0">
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/url"
+            android:layout_span="3"
+            android:hint="Enter URL"/>
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row1">
+
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hint"
+            android:layout_span="2"
+            android:hint="Enter Hint"/>
+
+        <Button android:layout_width="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:textColor="#FFFFFF"
+            android:background="#4169e1"
+            android:text="save"/>
+
+    </TableRow>
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:id="@+id/row2">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="3"
+            android:background="#eeeeee"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="saved URLs"/>
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#eeeeee"
+        android:padding="2dp"
+        android:layout_weight="1"
+        android:id="@+id/row3">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_span="3">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:id="@+id/tablelayout"></TableLayout>
+        </ScrollView>
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ececec"
+        android:paddingTop="5dp"
+        android:id="@+id/row4">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:textColor="#FFFFFF"
+            android:background="#4169e1"
+            android:layout_span="3"
+            android:text="clear"/>
+    </TableRow>
+
+
+
+</TableLayout>

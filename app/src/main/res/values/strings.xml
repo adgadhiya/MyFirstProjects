@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">My Info</string>
+    <string name="actions_settings">Settings</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">Love Music</string>
+    <string name="backdrop_subtitle">This season Top 20 Albums</string>
+
+    <string name="checkbox">CheckBox:</string>
+    <string name="ringtone">Ringtone:</string>
+    <string name="checkbox2">CheckBox #2:</string>
+    <string name="edit_pref">Edit Preference</string>
+    <string name="text">Text:</string>
+    <string name="list">List Selection</string>
+
+    <string name="searchurl">Search URL</string>
+    <string name="confirmMessage">Are u Sure?</string>
+    <string name="confirmTitle">Confirm Dialog</string>
+    <string name="erase">Erase Buttons</string>
+    <string name="cancel">Search URL</string>
+    <string name="missingMessage">missingMessage</string>
+    <string name="OK">OK</string>
+    <string name="missingTitle">missingTitle</string>
+
+
+    <string name="edit">edit</string>
+
+
+    <string name="clearLists">clearLists</string>
+    <string name="listedSerches">listedSerches</string>
+    <string name="listPrompt">listPrompt</string>
+    <string name="save">save</string>
+    <string name="favoritePrompt">favoritePrompt</string>
+
+
+    <string-array name="nav_drawer_item">
+        <item>Home</item>
+        <item>Find people</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What \'s Hot</item>
+    </string-array>
+
+    <array name="nav_drawer_icon">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <string-array name="name_array">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+        <item>Seventh</item>
+        <item>Eightth</item>
+        <item>Nineth</item>
+    </string-array>
+
+    <string-array name="description_array">
+        <item>First Array description</item>
+        <item>Second Array description</item>
+        <item>Third Array description</item>
+        <item>Fourth Array description</item>
+        <item>Fifth Array description</item>
+        <item>Sixth Array description</item>
+        <item>Seventh Array description</item>
+        <item>Eightth Array description</item>
+        <item>Nineth Array description</item>
+    </string-array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

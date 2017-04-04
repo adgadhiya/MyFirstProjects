@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#9c9c9c"
+    android:layout_margin="5dp"
+    tools:context="info.androidhive.slidingmenu.Data_receiver_Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Received Data From Another Fragment"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:id="@+id/received_data"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+</LinearLayout>

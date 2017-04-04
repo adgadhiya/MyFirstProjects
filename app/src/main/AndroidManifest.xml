@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.slidingmenu">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllActivities">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TabActivity" />
+        <activity android:name=".HttpReq" />
+        <activity android:name=".XmlParser" />
+        <activity android:name=".dragndrop" />
+        <activity android:name=".alertDialog" />
+        <activity android:name=".EditPreferences" />
+        <activity android:name=".animatinacti" />
+        <activity android:name=".clipboard_activity" />
+        <activity android:name=".jsonParsing" />
+        <activity android:name=".Connectivity" />
+        <activity android:name=".preference_acti">
+            <intent-filter>
+                <action android:name="android.intent.action.preference_acti" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fav_Pref" />
+        <activity android:name=".Custom_Layout" />
+        <activity android:name=".TimeDialogMain" />
+        <activity android:name=".Date_Picker_Main" />
+        <activity android:name=".Contexual_Action_Mode" />
+        <activity android:name=".ListViewContexualMode" />
+        <activity android:name=".PopUpMenuClass" />
+        <activity android:name=".Activity_Fragment_Communication" />
+        <activity android:name=".Fragment_Fragment_Communication" />
+        <activity android:name=".BoundServiceClass" />
+
+        <service
+            android:name=".MyService"
+            android:exported="false" />
+        <service
+            android:name=".MyMessangerService"
+            android:exported="false" />
+        <service
+            android:name=".InterProcessCommunicationClass"
+            android:exported="false"
+            android:process=":remote" />
+
+        <activity android:name=".BinderMessangerClass" />
+        <activity android:name=".IPCMainClass" />
+        <activity android:name=".GestureActivities" />
+        <activity android:name=".NotificationServices" />
+        <activity android:name=".CardViewActivities"></activity>
+    </application>
+
+</manifest>
